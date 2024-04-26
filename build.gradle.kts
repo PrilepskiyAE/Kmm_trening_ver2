@@ -4,4 +4,8 @@ plugins {
     alias(libs.plugins.androidLibrary).apply(false)
     alias(libs.plugins.kotlinAndroid).apply(false)
     alias(libs.plugins.kotlinMultiplatform).apply(false)
+    alias(libs.plugins.hiltAndroidPlugin).apply(false)
+    alias(libs.plugins.org.jetbrains.kotlin.kapt) apply false
+    alias(libs.plugins.kotlinSerialization).apply(false)
+    alias(libs.plugins.dataBasePlugin).apply(false)
 }
